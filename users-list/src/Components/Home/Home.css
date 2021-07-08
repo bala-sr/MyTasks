@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: whitesmoke;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.home-container {
+    width: 100vw;
+    height: 100vh;  
+}
+
+#btn-add-user {
+    position:absolute;
+    right: 3%;
+    top: 3%;
+    border: none;
+    outline: none;
+    background: lightcoral;
+    padding: 8px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-add-user:hover {
+    background: rgb(240, 108, 108);
+    transition: 0.3s all ease-in;
+}

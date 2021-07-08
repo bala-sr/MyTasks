@@ -1,0 +1,63 @@
+.btn {
+    position:absolute;
+    right: 3%;
+    top: 3%;
+    border: none;
+    outline: none;
+    background: rgb(49, 49, 49);
+    color: white;
+    padding: 8px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: black;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-add-user, .form-edit-user {
+    margin: auto;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inp {
+    margin: 10px auto;
+    padding: 5px 3px;
+}
+
+input[type=text], input[type=email] {
+    outline: none;
+    font-size: 18px; 
+    padding: 3px 5px;
+    width: 100%;
+}
+
+#btn-submit {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border: none;
+    outline: none;
+    padding: 8px;
+    background: rgb(109, 230, 109);
+    width: 60%;
+}
+
+#btn-submit:hover {
+    background: rgb(86, 224, 86);
+    transition: 0.2s all ease-in;
+    cursor: pointer;
+}
+
+.error-msg {
+    margin: 10px 0 !important;
+    color: red;
+}
