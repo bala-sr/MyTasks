@@ -12,4 +12,4 @@ This project was created using react, redux-form and react-beautiful-dnd.
 
 #### Drag and drop a user implemented using react-beautiful-dnd
 
-#### User data is stored in the local storage
+#### Users data are stored in the local storage
