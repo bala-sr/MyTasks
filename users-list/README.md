@@ -1,6 +1,7 @@
 # Users List
 
-This project was created using react, redux-form and react-beautiful-dnd.
+The main objective of the task is to maintain list of users and be able to add new users, edit existing users and delete users.
+The task was created using react, redux-form and react-beautiful-dnd.
 
 ## Features
 
